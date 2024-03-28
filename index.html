@@ -8,23 +8,24 @@
     <script src="/scripts/script.js" defer></script>
 </head>
 <body>
-    <div class="calculator"></div>
-    <h2>Calculadora de Gorjetas</h2>
-    <label for="billAmount">Valor da conta:</label>
-    <input type="number" id="billAmount" name="billAmount" placeholder="R$">
-    <label for="serviceQuality">Qualidade do serviço:</label>
-    <select name="serviceQuality" id="serviceQuality">
-        <option value="0.1">Excelente - 10%</option>
-        <option value="0.08">Ótimo - 8%</option>
-        <option value="0.05">Bom - 5%</option>
-        <option value="0.02">Ruim - 2%</option>
-    </select>
-    <button id="calculateBtn">Calcular Gorjeta</button>
-    <div class="result">
-        <label for="tipAmount">Valor da gorjeta:</label>
-        <input type="number" id="tipAmount" name="tipAmount" disabled>
-        <label for="totalAmount">Valor total:</label>
-        <input type="number" id="totalAmount" name="totalAmount" disabled>
+    <div class="calculator">
+        <h2>Calculadora de Gorjetas</h2>
+        <label for="billAmount">Valor da conta:</label>
+        <input type="number" id="billAmount" name="billAmount" placeholder="R$">
+        <label for="serviceQuality">Qualidade do serviço:</label>
+        <select name="serviceQuality" id="serviceQuality">
+            <option value="0.1">Excelente - 10%</option>
+            <option value="0.08">Ótimo - 8%</option>
+            <option value="0.05">Bom - 5%</option>
+            <option value="0.02">Ruim - 2%</option>
+        </select>
+        <button id="calculateBtn">Calcular Gorjeta</button>
+        <div class="result">
+            <label for="tipAmount">Valor da gorjeta:</label>
+            <input type="number" id="tipAmount" name="tipAmount" disabled>
+            <label for="totalAmount">Valor total:</label>
+            <input type="number" id="totalAmount" name="totalAmount" disabled>
+        </div>
     </div>
 </body>
 </html>
